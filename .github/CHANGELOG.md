@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.1.73-rc](https://github.com/mckinsey/agents-at-scale-ark/compare/v0.1.72...v0.1.73-rc) (2026-11-03)
+
+
+### Features
+
+* **ark-api:** purge revoked and expired API keys after a retention p… ([#3832](https://github.com/mckinsey/agents-at-scale-ark/issues/3832)) ([63d31cc](https://github.com/mckinsey/agents-at-scale-ark/commit/63d31cc5d7aba00b09cc8c32a00da967f72d4e05))
+* **dashboard:** add output schema configuration for openai-responses agents ([#3749](https://github.com/mckinsey/agents-at-scale-ark/issues/3749)) ([68aa7f1](https://github.com/mckinsey/agents-at-scale-ark/commit/68aa7f11b28cbe39a0b90a68bda9d8ce217f5919))
+* show agent card details for A2A servers and their agents ([#3752](https://github.com/mckinsey/agents-at-scale-ark/issues/3752)) ([873706f](https://github.com/mckinsey/agents-at-scale-ark/commit/873706fa499b456cc1af174d7648a769e3fdc16e))
+
+
+### Bug Fixes
+
+* add mcpserver sse deprecation warning ([#3855](https://github.com/mckinsey/agents-at-scale-ark/issues/3855)) ([83bf552](https://github.com/mckinsey/agents-at-scale-ark/commit/83bf5525e3feac5e33d45eb65a418cd418124a2d)), closes [#3526](https://github.com/mckinsey/agents-at-scale-ark/issues/3526)
+* address CVEs from issue [#3830](https://github.com/mckinsey/agents-at-scale-ark/issues/3830) ([#3831](https://github.com/mckinsey/agents-at-scale-ark/issues/3831)) ([d684b4f](https://github.com/mckinsey/agents-at-scale-ark/commit/d684b4fcc95bdc22fe0f4ca3010fb5bfb92adbf5))
+* address CVEs from issue [#3841](https://github.com/mckinsey/agents-at-scale-ark/issues/3841) ([#3842](https://github.com/mckinsey/agents-at-scale-ark/issues/3842)) ([f2f8384](https://github.com/mckinsey/agents-at-scale-ark/commit/f2f8384665ace86bee6544542e7984850a6b635d))
+* **ark-api:** raise Kubernetes errors from the dynamic client ([#3816](https://github.com/mckinsey/agents-at-scale-ark/issues/3816)) ([6a65341](https://github.com/mckinsey/agents-at-scale-ark/commit/6a65341a6c3e113336e10e05d0cad24cd2702d7d))
+* **ark-dashboard:** fit chat panel content to the panel width ([#3857](https://github.com/mckinsey/agents-at-scale-ark/issues/3857)) ([15ea8ad](https://github.com/mckinsey/agents-at-scale-ark/commit/15ea8adda41b5683a4965ea025b5caf10582b483))
+* **ark-dashboard:** keep the tool's type when adding tools to an agent ([#3882](https://github.com/mckinsey/agents-at-scale-ark/issues/3882)) ([d0827db](https://github.com/mckinsey/agents-at-scale-ark/commit/d0827db627b5590913972439d80040b43055f794))
+* **dashboard:** resume running queries and pending approvals after navigation or reload ([#3858](https://github.com/mckinsey/agents-at-scale-ark/issues/3858)) ([d7abc3a](https://github.com/mckinsey/agents-at-scale-ark/commit/d7abc3a665d9d07f8f993c3d8ffa1662146e8e6d))
+* **dashboard:** show Ark CLI install command only for items the CLI can resolve ([#3751](https://github.com/mckinsey/agents-at-scale-ark/issues/3751)) ([c587693](https://github.com/mckinsey/agents-at-scale-ark/commit/c58769365da2ee5da7bd3bc261fa19a7939f5cd5))
+* Flagged Security issues from report which jFrog missed ([#3867](https://github.com/mckinsey/agents-at-scale-ark/issues/3867)) ([7ebae21](https://github.com/mckinsey/agents-at-scale-ark/commit/7ebae21dd6aab29e04cfeb28c8c417b16e798cc1))
+* honour query timeout for team members ([#3879](https://github.com/mckinsey/agents-at-scale-ark/issues/3879)) ([cd5f426](https://github.com/mckinsey/agents-at-scale-ark/commit/cd5f42626057e14115f583e7863242b1942139a8)), closes [#3845](https://github.com/mckinsey/agents-at-scale-ark/issues/3845)
+* **security:** resolve XRAY-1152418 and XRAY-1152420 (pgx v5.12.0) ([#3886](https://github.com/mckinsey/agents-at-scale-ark/issues/3886)) ([302b281](https://github.com/mckinsey/agents-at-scale-ark/commit/302b2818af8aa027ae42852efba1e375ec840840))
+* **tests:** pin pytest below 9.2 for UI e2e tests ([#3868](https://github.com/mckinsey/agents-at-scale-ark/issues/3868)) ([2849340](https://github.com/mckinsey/agents-at-scale-ark/commit/2849340f5885701bd0f675d68d92e66002906b0e))
+
+
+### Documentation
+
+* **ref:** describe multi-replica scaling of the completions executor ([#3881](https://github.com/mckinsey/agents-at-scale-ark/issues/3881)) ([28788e6](https://github.com/mckinsey/agents-at-scale-ark/commit/28788e68a5dccd61979585f1791e699717d2bd30))
+* refresh contributors list ([#3853](https://github.com/mckinsey/agents-at-scale-ark/issues/3853)) ([efd16a0](https://github.com/mckinsey/agents-at-scale-ark/commit/efd16a077971eefc59782399a83eaa6c0154c06f))
+
 ## [0.1.72-rc.4](https://github.com/mckinsey/agents-at-scale-ark/compare/v0.1.72-rc.3...v0.1.72-rc.4) (2026-10-21)
 
 
